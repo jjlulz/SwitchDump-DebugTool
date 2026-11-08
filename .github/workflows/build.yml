@@ -16,5 +16,5 @@ jobs:
         run: gmake package FINALPACKAGE=1
       - uses: actions/upload-artifact@v4
         with:
-          name: SixteenPlayer-deb
+          name: SwitchDump-deb
           path: packages/*.deb
